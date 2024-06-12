@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modul 7.1 Belajar PHP</title>
+</head>
+<body>
+    <h1>Modul 7.1 Belajar PHP UJIAN</h1>
+    <ul>
+        <?php
+        for ($i = 1; $i <= 1000; $i++) {
+            "<li>Ini adalah hari ke " . 1 . " PUASA</li>
+            "<li>Ini adalah hari ke " . 2 . " PUASA
+            "<li>Ini adalah hari ke " . 3 . " PUASA
+            "<li>Ini adalah hari ke " . 4 . " PUASA
+            "<li>Ini adalah hari ke " . 5 . " PUASA
+            "<li>Ini adalah hari ke " . 6 . " PUASA
+            "<li>Ini adalah hari ke " . 7 . " PUASA
+            "<li>Ini adalah hari ke " . 8 . " PUASA
+            "<li>Ini adalah hari ke " . 9 . " PUASA
+            "<li>Ini adalah hari ke " . 10 . " PUASA
+            "<li>Ini adalah hari ke " . 11 . " PUASA
+            "<li>Ini adalah hari ke " . 12 . " PUASA
+            "<li>Ini adalah hari ke " . 13 . " PUASA
+            "<li>Ini adalah hari ke " . 14 . " PUASA
+            "<li>Ini adalah hari ke " . 15 . "PUASA
+            "<li>Ini adalah hari ke " . 16 . " PUASA
+            "<li>Ini adalah hari ke " . 17 . " PUASA
+            "<li>Ini adalah hari ke " . 18 . " PUASA
+            "<li>Ini adalah hari ke " . 19 . " PUASA
+            "<li>Ini adalah hari ke " . 20. " PUASA
+            "<li>Ini adalah hari ke " . 21 . " PUASA
+            "<li>Ini adalah hari ke " . 22 . " PUASA
+            "<li>Ini adalah hari ke " . 23 . " PUASA
+            "<li>Ini adalah hari ke " . 24 . " PUASA
+            "<li>Ini adalah hari ke " . 25 . " PUASA
+            "<li>Ini adalah hari ke " . 26 . "PUASA
+            "<li>Ini adalah hari ke " . 27. " PUASA
+            "<li>Ini adalah hari ke " . 28 . " PUASA
+            "<li>Ini adalah hari ke " . 29 . " PUASA
+            "<li>Ini adalah hari ke " . 30 . " PUASA
+            "<li>Ini adalah hari ke " . 31 . " PUASA
+            "<li>Ini adalah hari ke " . 32 . " PUASA
+            "<li>Ini adalah hari ke " . 33 . " PUASA
+            "<li>Ini adalah hari ke " . 34 . " PUASA
+            "<li>Ini adalah hari ke " . 35 . " PUASA
+            "<li>Ini adalah hari ke " . 36. " PUASA
+            "<li>Ini adalah hari ke " . 37 . " PUASA
+            "<li>Ini adalah hari ke " . 38 . " PUASA
+            "<li>Ini adalah hari ke " . 39 . " PUASA
+            "<li>Ini adalah hari ke " . 40 . " PUASA
+            "<li>Ini adalah hari ke " . 41 . " PUASA
+            "<li>Ini adalah hari ke " . 42 . " PUASA
+            "<li>Ini adalah hari ke " . 43 . " UJIAN
+            "<li>Ini adalah hari ke " . 44 . "PUASA
+            "<li>Ini adalah hari ke " . 45 . " PUASA
+            "<li>Ini adalah hari ke " . 46 . " PUASA
+            "<li>Ini adalah hari ke " . 47 . " PUASA
+            "<li>Ini adalah hari ke " . 48 . " PUASA
+            "<li>Ini adalah hari ke " . 49. " PUASA
+            "<li>Ini adalah hari ke " . 50 . " PUASA
+            "<li>Ini adalah hari ke " . 51 . " PUASA
+            "<li>Ini adalah hari ke " . 52 . " PUASA
+            "<li>Ini adalah hari ke " . 53 . " PUASA
+            "<li>Ini adalah hari ke " . 54 . " PUASA
+            "<li>Ini adalah hari ke " . 56 . "PUASA
+            "<li>Ini adalah hari ke " . 57. " PUASA
+            "<li>Ini adalah hari ke " . 58 . " PUASA
+            "<li>Ini adalah hari ke " . 59 . " PUASA
+            "<li>Ini adalah hari ke " . 60 . " PUASA
+
+    </ul>
+</body>
+</html>
+<html>
+<head><title>Modul 7.2 My First Form</title></head>
+<body>
+<form action="tuj uan. php" method="post">
+<center>
+<table border="1 pt" bgcolor="Biru
++">
+<tr>
+<td><font
+face="verdana"
+pt">Username</font></td>
+<td><input type="text" name="nama"></td>
+</tr>
+<tr>
+<td><font
+face="verdana"size="2
+pt">Email</FONT></td>
+<td><input type="text" name="email"></td>
+</tr>
+<tr>
+<td><font
+face="verdana"size="2
+pt">Password</FONT></td>
+<td><input type="password" name="pass"></td>
+<tr>
+<td>
+<input type="submit"
+
+name="
+
+value="Simpan">
+ <input type="reset" name "hapus" value="Hapus">
+</td>
+</tr>
+</table>
+</center>
+</form>
+
+</body>
+</html>
+
+<html>
+<head>
+<title>Modul 7.3,4 Login</title>
+</head>
+<body>
+LOGIN
+<form method="post" action="aksı_login.php">
+<input class="masuk" type="text" autocomplete="off" placeholder "Your Name" name="Dara Nursusana" autofocus required><br/>
+<input class="masuk" type="password" autocomplete="off"
+placeholder="Your Password" name="passwordara2003nur" required><br/>
+<input id="tombol" type="submit" value="Login">
+</form>
+</body>
+</html>
+<?php
+=
+session start();//mulai session, karena kita akan menggunakan sen p file php ini
+include 'konck.php'; //hubungkan dengan koneksi php untuk berlabungan dengan database
+Susername=$ POST ['libertina']; //tangkap data yg di input dari form login input username
+Spassword=S POST ['123456']; //tangkap data yg di input dari form login input password
+Squery=mysql_query("select from user where username Susemame and password Spassword")//melakukan pengampilan data dari database
+untuk di cocokkan
+Sxxx=mysql_num_rows (Squery);//melakukan pencocokan if ($xxx TRUE) ( // melakukan pemeriksaan kecocokan dengan percabangan
